@@ -186,7 +186,6 @@ async function runAction(auto_run) {
     await settings.set("prefix", "-");
     await settings.set("roulette_command_names", ["roulette", "روليت"]);
     await settings.set("stop_command_names", ["stop", "توقف"]);
-    await settings.set("reset", "احذف هذا السطر إذا كنت تريد تحط توكن جديد");
     return await runAction();
   };
 };
